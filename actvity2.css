@@ -356,7 +356,6 @@ footer img{
     }
     nav a{
         padding: 2rem;
-        font-size: 1.2em;
     }
 
      /*mmmmmmmmmmmmmmmmmmmmmmmmmm*>>>>>> Main */
@@ -433,7 +432,7 @@ footer img{
         height: 50%;
     }
     .section h2{
-        font-size: 1.2em;
+        font-size: larger;
     }
 
     .section{
@@ -450,7 +449,7 @@ footer img{
         width: 100%;
     }
     .blog-spec li{
-        font-size: 0.6em;
+        font-size: small;
         list-style: none;
         padding-left: 0.5rem;
     }
