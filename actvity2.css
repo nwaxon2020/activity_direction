@@ -160,7 +160,7 @@ nav a:focus{
 .controls a{
     background-color: #db8906;
     margin-top: 1rem;
-    padding: 1rem;
+    padding: 0.8rem;
     padding-left: 50px;
     padding-right: 50px;
     color: #fff;
