@@ -48,25 +48,9 @@
                     </li>
                 </ul>
 
-                <div class="button"><button type="submit" onclick="whatsapp()">Submit Message</button></div>
+                <div class="button"><button type="submit">Submit Message</button></div>
             </fieldset>
        </form>
-       <script>
-        function whatsapp(){
-            var name = document.getElementById("name").value;
-            var phone = document.getElementById("phone").value;
-            var email = document.getElementById("email").value;
-            var msg = document.getElementById("msg").value;
-
-            var whatsappurl = "https://wa.me/2347034632037?text="
-            + "Customer name:" + name + "%0a"
-            + "Phone no.:" + phone + "%0a"
-            + "Email add:" + email + "%0a"
-            + "Enqirey:" + msg;
-
-            window.open(whatsappurl,"_blank").focus()
-        }
-       </script>
     </main>
     <footer>
         <h2>Enjoyed your visit? Contact_Us Via >>>>></h2>

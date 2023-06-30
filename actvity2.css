@@ -4,7 +4,7 @@
 form{
     width: 650px;
     border: 2px solid #707070;
-    margin: 2rem auto;
+    margin: 3.5rem auto;
     text-align: center;
     border-radius: 1rem;
     background-color: #312614;
@@ -221,6 +221,9 @@ nav a:focus{
     border: 4px solid #fff;
     justify-self: center;
 }
+#book img{
+    max-height: 100%;
+}
 #book a{
     background-color: antiquewhite;
     text-align: center;
@@ -286,7 +289,7 @@ footer img{
     margin-left: 0.5em;
     align-self: self-end;
     text-decoration:underline;
-    color: #fff;
+    color: #deec18;
 }
 .no-boder{
     border: 0px;
@@ -300,9 +303,10 @@ footer img{
     align-self: self-end;
 }
 .section img{
-    width: 100%;
+    width: 50em;
     height: 30em;
     margin-top: 0px;
+    margin-bottom: 0.5rem;
 }
 .blog-spec{
     display: grid;
@@ -330,4 +334,15 @@ footer img{
     border-radius: 1rem;
 }
 
+/*mmmmmmmmmmmmmmmmmmmmmmmmmm*>>>>>>  MEDIA QUEARY 980PX  */
+@media (max-width: 980px) {
+    .container{
+     
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        justify-content: center;
+        justify-items: center;
+        margin: 0 auto;
+    }
+}
 
