@@ -396,19 +396,19 @@ footer img{
     #book{
         margin: 0px;
     }
-    #book a{
+    /* #book a{
         width: 10em;
         font-size: 1rem;
     }
- 
+  */
      /*mmmmmmmmmmmmmmmmmmmmmmmmmm*>>>>>> Footer */
-    /* footer{
+     footer{
         display: flex;
         flex-direction: column;
         justify-items: center;
         margin: 0px;
-    }
-    footer h2{
+    } 
+    /* footer h2{
         text-align: center;
         font-size: larger;
     }
@@ -418,7 +418,7 @@ footer img{
     footer img, ul{
         margin-top: 0 auto;
         padding: 0px;
-    } */ 
+    } */  */
 
      /*mmmmmmmmmmmmmmmmmmmmmmmmmm*>>>>>> Blog */
     .sticky{
