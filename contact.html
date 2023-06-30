@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Dream Cars</title>
+    <link rel="stylesheet" href="actvity2.css">
+</head>
+<body>
+    <header class="header">
+        <div id="top_background"></div>
+        <div class="container">
+            <div class="head_title">
+                <h1>DREAM CARS</h1>
+                <p>Your Choice for a long ride</p>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact_Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <main>
+       <form action="" method="post">
+            <fieldset>
+                <legend><h2>ASK ME</h2></legend>
+                <ul>
+                    <li>
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" required name="user_name">
+                    </li>
+                    <li>
+                        <label for="Phone">Tel:</label>
+                        <input type="tel" id="phone" value="+234" maxlength="14" name="user_phone">
+                    </li>
+                    <li>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" placeholder="@" required name="user_email">
+                    </li>
+                    <li>
+                        <label for="msg">Message:</label>
+                        <textarea type="text" name="user_message" id="Msg"></textarea>
+                    </li>
+                </ul>
+
+                <div class="button"><button type="submit" onclick="whatsapp()">Submit Message</button></div>
+            </fieldset>
+       </form>
+       <script>
+        function whatsapp(){
+            var name = document.getElementById("name").value;
+            var phone = document.getElementById("phone").value;
+            var email = document.getElementById("email").value;
+            var msg = document.getElementById("msg").value;
+
+            var whatsappurl = "https://wa.me/2347034632037?text="
+            + "Customer name:" + name + "%0a"
+            + "Phone no.:" + phone + "%0a"
+            + "Email add:" + email + "%0a"
+            + "Enqirey:" + msg;
+
+            window.open(whatsappurl,"_blank").focus()
+        }
+       </script>
+    </main>
+    <footer>
+        <h2>Enjoyed your visit? Contact_Us Via >>>>></h2>
+        <nav>
+            <ul>
+                <li><a href="#"><img src="imageee/instagram.png" alt="instagram picture"></a>i</li>
+                <li><a href="#"><img src="imageee/yahoo.jpg" alt="yahoo picture"></a></li>
+                <li><a href="#"><img src="imageee/twitter.png" alt="twitter picture"></a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,333 @@
+
+
+/*mmmmmmmmmmmmmmmmmmmmmmmmmm*>>>>>  CONTACTS CSS  >>>>>*/
+form{
+    width: 650px;
+    border: 2px solid #707070;
+    margin: 2rem auto;
+    text-align: center;
+    border-radius: 1rem;
+    background-color: #312614;
+    background-image: url(./imageee/car1.jpg);
+    background-blend-mode: multiply;
+    text-align: center;
+}
+fieldset{
+    color: #fff;
+    margin: 1.5rem;
+    border-radius: 1rem;
+}
+legend{
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bolder;
+}
+form ul{
+    list-style: none;
+    font-weight: bold;
+}
+label{
+    display: inline-block;
+    width: 5em;
+    text-align: right;
+}
+form li{
+    margin-top: 1em;
+}
+input{
+    font-size: 1.2em;
+}
+textarea, input{
+    width:  20rem;
+    box-sizing: border-box;
+    height: 2rem;
+    text-align: left;
+    font-family: sans-serif;
+}
+textarea{
+    vertical-align: top;
+    height: 7em;
+    font-size: 1.4em;
+    padding: 0.5rem;
+}
+.button{
+ margin-left:8rem;
+}
+button{
+    padding: 0.5em;
+    border-radius: 1rem;
+    font-weight: 900;
+}
+button:hover, 
+button:focus{
+    background-color: #4ddc8d;
+}
+
+
+/*mmmmmmmmmmmmmmmmmmmmmmmmmm*>>>>>  Site Body  >>>>>*/ 
+body{
+    font-family: system-ui, 'Helvetica Neue', sans-serif;
+    max-width: 1600px;
+    margin: 0 auto;
+    background-color: black;
+    color: white;
+}
+
+/*mmmmmmmmmmmmmmmmmmmmmmmmmm*>>>>>  HEADER  >>>>>*/ 
+#top_background{
+    background-image: url(./imageee/car1.jpg);
+    height: 5rem;
+    margin: 0.5em 2em;
+    background-color: #b7832f;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-blend-mode: multiply;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin: 0.5em 2em;
+    border-bottom: 2px solid #707070;
+    border-left: 2px solid #707070;
+    border-right: 2px solid #707070;
+}
+.container h1{
+    margin-bottom: 0px;
+    margin-left: 1em;
+    color: #fff;
+}
+.container p{
+    margin: 0px;
+    margin-left: 2em;
+    color: #b7832f;
+    font-weight: bold;
+}
+
+/*mmmmmmmmmmmmmmmmmmmmmmmmmm*>>>>>  HEADER--NAV >>>>>*/
+nav{ 
+    align-self: center;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0 auto;
+}
+nav a{
+    text-decoration: none;
+    padding: 1.2em;
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #fff;
+}
+nav a:hover,
+nav a:focus{
+    color: #db9019;
+}
+
+/*mmmmmmmmmmmmmmmmmmmmmmmmmm*>>>>>> CAR-IMAGE*/
+.car{
+    margin: 1rem 2rem;
+    background-color: black;
+    display: grid;
+    grid-column: 2fr 1fr;
+}
+.car_img, .specs{
+    grid-column: 1/2;
+    margin: 0 2rem;
+}
+.car_img img{
+    width: 100%;
+    min-width: 200px;
+    min-height: 200px;
+    border: 5px solid#fff;
+    border-top: 3px solid black;
+}
+
+/*mmmmmmmmmmmmmmmmmmmmmmmmmm*>>>>>> CONTRLS FOR NEXT PAGE */
+.controls{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 0.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 1rem;
+}
+.controls a{
+    background-color: #db8906;
+    padding: 0.5rem;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: #fff;
+    font-weight: bolder;
+    font-size: 1.2rem;
+    border: 2px solid #fff;
+    border-radius: 1rem;
+    text-decoration: none;
+}
+.controls a:hover,
+.controls a:focus{
+    opacity: 0.7;
+}
+
+/*mmmmmmmmmmmmmmmmmmmmmmmmmm*>>>>>> CAR-SPECIFIATIONS  */
+.specs{
+    grid-column: 2/3;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 1.2em;
+    margin-bottom: 3rem;
+}
+.specs section{
+    background-color: #fff;
+    min-width: 10rem;
+    color: #312614;
+    width: 30rem;
+    text-align: center;
+    border-radius: 1rem;
+}
+.specs ul, .specs h2{
+    padding-left: 0px;
+    list-style: disc;
+}
+
+/*mmmmmmmmmmmmmmmmmmmmmmmmmm*>>>>>> ABOUT US */
+.about-us{
+    margin: 2rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    border-top: 2px solid #707070;
+}
+#about, #services, #book{
+    width: 100%;
+    text-align:justify;
+    color: #fff;
+    padding: 1.5em;
+}
+#book{
+    background-color: #db8906;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: auto;
+    width: 50%;
+}
+#book img, #book a{
+    width: 100%;
+    border: 4px solid #fff;
+    justify-self: center;
+}
+#book a{
+    background-color: antiquewhite;
+    text-align: center;
+    padding:0.5em 0px;
+    border-radius: 1rem;
+    font-weight: bolder;
+    text-decoration: none;
+    font-size: 1.5rem;
+    width: 7em; 
+    margin: 2rem auto;
+}
+/* .book-a{
+    ma
+} */
+/*mmmmmmmmmmmmmmmmmmmmmmmmmm*>>>>>> FOOTER */
+footer{
+    margin: 1rem 2rem;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid #707070;
+    color: #fff;
+    background-color: #b7832f;
+    background-image: url(./imageee/car1.jpg);
+    background-blend-mode: multiply;
+}
+footer a:hover,
+footer a:focus{
+    opacity: 0.6;
+}
+
+footer img{
+    border-radius: 5em;
+}
+
+/*mmmmmmmmmmmmmmmmmmmmmmmmmm*>>>>>> BLOG CSS */
+.blog{
+    margin: 0.5em 2em;
+}
+.sticky{
+    position: sticky;
+    top: 0px;
+    background-color: black;
+    z-index: 1;
+}
+/*mmmmmmmmmmmmmmmmmmmmmmmmmm*>>>>>> BLOG CARS*/
+.car-blog{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-bottom: 2px solid #707070;
+    padding-bottom: 2em;
+}
+.section{
+    display: grid;
+    grid-template-rows: 0.5fr 3fr 1fr;
+    justify-content: center;
+    border-right: 2px solid #707070;
+}
+.section h2{
+    font-weight: bolder;
+    font-size: 2rem;
+    margin-top: 1em;
+    margin-left: 0.5em;
+    align-self: self-end;
+    text-decoration:underline;
+    color: #fff;
+}
+.no-boder{
+    border: 0px;
+}
+.no-boder h2{
+    text-align: right;
+    font-weight: bolder;
+    font-size: 2rem;
+    margin-top: 1em;
+    margin-right: 0.5em;
+    align-self: self-end;
+}
+.section img{
+    width: 100%;
+    height: 30em;
+    margin-top: 0px;
+}
+.blog-spec{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    gap: 1em;
+}
+.blog-spec div{
+    border: 2px solid #707070;
+    width: 23rem;
+}
+
+/*mmmmmmmmmmmmmmmmmmmmmmmmmm*>>>>>> BLOG SPEC LI */
+.section li{
+    font-weight: bolder;
+    font-size: 1.2rem;
+}
+.section span{
+    border: 3px solid #4ddc8d;
+    background-color: #fff;
+    color: black;
+    margin: 0.5em 0.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+    border-radius: 1rem;
+}
+
+
