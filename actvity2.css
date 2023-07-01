@@ -1,6 +1,16 @@
 
 
 /*mmmmmmmmmmmmmmmmmmmmmmmmmm*>>>>>  CONTACTS CSS  >>>>>*/
+.contact{
+    background-color: #04372f;
+    background-image: url(./imageee/herooss.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    margin:0 2rem;
+    padding: 1rem;
+    
+}
 form{
     width: 650px;
     border: 2px solid #707070;
@@ -506,6 +516,15 @@ footer img{
         background-image: url(./imageee/car1.jpg);
         background-blend-mode: multiply;
         border-radius: 0px;
+        border-radius: 1rem;
+    }
+    .contact{
+        background-color: #04372f;
+        background-image: url(./imageee/herooss.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-blend-mode: multiply;
+        margin:0 auto;
     }
 }
 
