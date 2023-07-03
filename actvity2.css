@@ -348,12 +348,13 @@ footer img{
 .section li{
     font-weight: bolder;
     font-size: 1.2rem;
+    margin-top: 0.7rem;
 }
-.section .prices .qty{
+.price, .qty{
     border: 3px solid #4ddc8d;
     background-color: #fff;
     color: black;
-    margin: 0.5em 0.5em;
+    margin-top: 0 auto;
     padding-left: 1em;
     padding-right: 1em;
     border-radius: 1rem;
