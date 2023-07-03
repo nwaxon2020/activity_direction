@@ -349,7 +349,7 @@ footer img{
     font-weight: bolder;
     font-size: 1.2rem;
 }
-.section span{
+.section .prices .qty{
     border: 3px solid #4ddc8d;
     background-color: #fff;
     color: black;
