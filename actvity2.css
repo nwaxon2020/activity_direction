@@ -117,6 +117,10 @@ body{
 }
 
 /*mmmmmmmmmmmmmmmmmmmmmmmmmm*>>>>>  HEADER--NAV >>>>>*/
+.head_title h1 a{
+    color: #fff;
+    text-decoration: none;
+}
 nav{ 
     align-self: center;
 }
